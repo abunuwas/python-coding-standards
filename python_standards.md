@@ -69,11 +69,13 @@ We'll use the Google style becuase of its clarity, and also because it has prove
 
 2. Start every file with a module level description. This description should include the following elements:
 
-	2.1. A one-line description of the module.
-	2.2. A summary of the module's purpose and intent.
-	2.3. A list of all relevant elements within the module which are relevant for consumers of the module's API. This includes variables, functions, and classes, together with a one line description of each. 
+	1. A one-line description of the module.
+	2. A summary of the module's purpose and intent.
+	3. A list of all relevant elements within the module which are relevant for consumers of the module's API. This includes variables, functions, and classes, together with a one line description of each. 
 
-3. At the package level, document the package in __init__.py. Again, list those elements from within the package, including subpackages, which are relevant for its consumers, and provide brief descriptions. 
+3. At the package level, document the package in `__init__.py`. Again, list those elements from within the package, including subpackages, which are relevant for its consumers, and provide brief descriptions. 
+
+4. 
 
 
 
@@ -100,6 +102,8 @@ Import statements must be grouped on top of a file according to the following ru
 ```
 #!/usr/bin/env python3
 ```
+
+2. Following the shebang line, include license boilerplate. 
 
 2. Following the shebang line, include module level docstrings.
 
@@ -179,3 +183,14 @@ The above tree represents a library structure. application_code/ is the package 
 
 ## Classes and inheritance 
 
+
+-----------------------
+
+
+## Indentation
+
+
+-----------------------
+
+
+## 
